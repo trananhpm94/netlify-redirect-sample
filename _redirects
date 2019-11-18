@@ -1,2 +1,2 @@
 # path news => blogs
-/news/*  /blogs/:splat
+/news/*  /blogs/:splat 301
