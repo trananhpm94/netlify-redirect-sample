@@ -1,6 +1,11 @@
 # Rewrite a path
 # path news => blogs
-/news/*  /blogs/:splat  200
+#/news/*  /blogs/:splat  200
+
+
+# Rewrite a path: change path and remove param
+#/news/* id=:id /blogs/:splat  301
 
 # Rewrite a path: remove param
 /news/* id=:id /news/:splat  301
+
