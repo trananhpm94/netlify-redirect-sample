@@ -7,5 +7,9 @@
 #/news/* id=:id /blogs/:splat  301
 
 # Rewrite a path: remove param
-/news/* id=:id /news/:splat  301
+#/news/* id=:id /news/:splat  301
+
+
+/ id=:id fbclid=:fbclid / 301
+/* id=:id fbclid=:fbclid /:splat 301!
 
