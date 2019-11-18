@@ -1,5 +1,7 @@
 # Rewrite a path: remove param id
+/ id / 301
 / id=:id / 301
+/* id /:splat 301!
 /* id=:id /:splat 301!
 
 # Rewrite a path
